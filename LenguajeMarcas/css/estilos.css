@@ -1,0 +1,67 @@
+body{
+    font-family: "times new roman";
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+td, tr{
+    padding: 20px;
+    margin: 20px;
+}
+
+.menu{
+    position:fixed;
+    width: 100%;
+    margin-top: 0;
+    background-color: #5564eb;
+    color: white;
+    padding: 25px;
+    text-align: center;
+    z-index: 100;
+ 
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    margin: 200px;
+}
+
+.menu a:hover{
+    color: black;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+header{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.dosEventos{
+    display: flex;
+    justify-content:center;
+}
+
+.evento1, .evento2{
+    width: 45%;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.evento1 img{
+    width: 50%;
+}
+
+.evento2 img{
+    width: 75%;
+}
+
+header h1{
+    margin-top: 100px;
+}
